@@ -1,0 +1,60 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.logo img {
+    width: 45px;
+} 
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-image: url("bg.jpg");
+    position: relative;
+    padding: 30px;
+    border-radius: 30px;
+    max-width: 350px;
+    width: 100%;
+}
+
+header, .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 50px;
+}
+
+h5 {
+    font-size: 15px;
+    color: #fff;
+}
+
+h4 {
+    color: #ffffff;
+    margin-left: 8px;
+}
+
+h5.number {
+    margin-top: 10px;
+}
+
+h5.name {
+    margin-top: 10px;
+}
+
+.valid {
+    margin-top: 5px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
